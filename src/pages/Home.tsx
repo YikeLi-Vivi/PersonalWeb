@@ -24,7 +24,6 @@ const Home = () => {
         <TypeAnimation sequence={captionString}
                    cursor={false}
                    style={{textAlign: "center", marginTop: "5%", fontSize: "1.8em"}}/>
-
         <Introduction ref = {About} id="about"/>
     </div>
   )

@@ -1,6 +1,6 @@
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components"
-import NavBar from ".";
+import NavBar from "./NavBar";
 import { Color } from "../../style/color";
 
 export const Nav = styled.nav`

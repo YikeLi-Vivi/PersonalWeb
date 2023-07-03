@@ -1,3 +1,4 @@
+import React from 'react'
 import {Nav, NavLink, NavMenu} from './NavBarComponents'
 import PropTypes from 'prop-types'
 
@@ -7,7 +8,6 @@ interface Props {
 
 const NavBar = (props: Props) => {
   return (
-    <>
         <Nav>
             <NavMenu>
                 <NavLink to="./home">Vivian Li</NavLink>
@@ -15,7 +15,6 @@ const NavBar = (props: Props) => {
                 <NavLink to="./cv">CV</NavLink>
             </NavMenu>
         </Nav>
-    </>
   )
 }
 

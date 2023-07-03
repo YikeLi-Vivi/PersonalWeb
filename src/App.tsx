@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar/NavBar'
 import Home from './pages/Home'
 import Project from './pages/Project'
 import CV from './pages/CV'
@@ -7,12 +7,9 @@ import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import './App.css'
 import Footer from './components/Footer'
-import styled from "styled-components"
-
-
+import React from 'react'
 
 function App() {
-
   return (
     <>
     <Router>
