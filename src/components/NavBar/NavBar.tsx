@@ -10,9 +10,9 @@ const NavBar = (props: Props) => {
   return (
         <Nav>
             <NavMenu>
-                <NavLink to="./home">Vivian Li</NavLink>
-                <NavLink to="./project">Projects</NavLink>
-                <NavLink to="./cv">CV</NavLink>
+                <NavLink to="./Vivian-Li/home">Vivian Li</NavLink>
+                <NavLink to="./Vivian-Li/project">Projects</NavLink>
+                <NavLink to="./Vivian-Li/cv">CV</NavLink>
             </NavMenu>
         </Nav>
   )

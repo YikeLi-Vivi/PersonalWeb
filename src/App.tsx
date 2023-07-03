@@ -17,9 +17,9 @@ function App() {
         <Routes >
         <Route  path='/'  element={<Home />} />
         <Route  path='/Vivian-Li/'  element={<Home />} />
-        <Route path='/home' element={<Home/>} />
-        <Route path='/project' element={<Project/>} />
-        <Route path='/cv' element={<CV/>} />
+        <Route path='/Vivian-Li/home' element={<Home/>} />
+        <Route path='/Vivian-Li/project' element={<Project/>} />
+        <Route path='Vivian-Li/cv' element={<CV/>} />
         </Routes>
         <Footer/>
     </Router>
