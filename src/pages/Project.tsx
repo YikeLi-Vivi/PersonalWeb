@@ -47,7 +47,7 @@ const Project = () => {
                                    Implement both the front-end UI and backend pipeline for audio transcription and analysis"]}
                     tech = {[Python, pyqt, pyinstaller]}
                     time="2022-2023"
-                    link="https://sites.tufts.edu/hilab/gailbot-an-automatic-transcription-system-for-conversation-analysis/"
+                    link="https://pypi.org/project/GailBot/"
                 />
 
         <ProjectCard img={convehull} name="Convex Hull Solver Visualization"

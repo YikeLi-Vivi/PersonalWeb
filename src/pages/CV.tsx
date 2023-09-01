@@ -72,29 +72,35 @@ const CV = () => {
 
         <Experience year='2022.06 - 2022.12'
                     organization='Tufts University International Center'
-                    description={["Restructure and Implement website for international center service",
+                    description={["Restructured and Implemented website for international center service",
                     "Attend international center staff meeting to get user feedback"]}   
                     position="Web Design Assistant"    
                     technologies={["HTML", "CSS", "WordPress", "Figma"]} />       
-        <Line/>
-        <Label>Project </Label>
-        <Experience year="2022"
-                    organization='Dream (Team Project)'
-                    description={[]}
-                    position="A mobile app for dream recording. Implement a calendar feature to organize the dream."
-                    technologies={["React.Native", "Node.js"]}/>
-        <Experience year="2021"
-                   organization = 'Boba Tea Generator'
-                   description={[]}
-                   position="Create an interactive boba tea menu with visual animation to simulate different drink choices"
-                   technologies={["HTML", "CSS", "Javascript"]}
-        />
+        
+        <Experience year='2021.05 - 2021.07'
+                    organization='Arnaya Theatre'
+                    description={["Involved in organizing 2021 Arnaya Theatre Festival.", 
+                                  "Worked in photography team to make photo-shoot plan for 28 plays, and communicated with media department for photo release."]}   
+                    position="Theatre Management Intern"    
+                    technologies={[]} />       
+        
+        <Experience year='2020.05 - 2020.07'
+                    organization='猫岛影视文化有限公司'
+                    description={["Edit advertisement video for local restaurants", 
+                                  "Photo shopped portrait photography for customers",
+                                  "Learned and practiced the use of lighting and composition in portrait photography"]}   
+                    position="Photography and Video Editing Intern"    
+                    technologies={["FinalCut Pro", "PhotoShop", "Premiere"]} />       
         <Line/>
         <Label>SKIlls</Label>
-        <div>Programming Language: C++, C, Python, Javascript, Typescript, Standard ML</div>
-        <div>Frontend: HTML, CSS, React Native, React.js, PyQt</div>
+        <br/>
+        <div>Programming Language: Kotlin, C++, C, Python, Javascript, Typescript, Standard ML</div>
+        <br/>
+        <div>Frontend: Jetpack Compose, Compose Multi-platform, HTML, CSS, React Native, React.js, PyQt</div>
+        <br/>
         <div>Backend: Node.js, Flask, MongoDB, SQL, NonSQL</div>
-        <div>Software: Figma, PhotoShop</div>
+        <br/>
+        <div>Software: Figma, PhotoShop, Final Cut Pro</div>
     </Wrapper>
   )
 }

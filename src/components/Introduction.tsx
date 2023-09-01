@@ -50,22 +50,27 @@ const Introduction = (props : PropType) => {
     <FlexContainer>
         <Card>
             <Title style={{width:"70%", marginLeft:"15%"}}>What  Can  I  Create ? </Title>
-            <div> From vanilla javascript to frameworks such as React, I have experience with web developments for around 2 years.
+            <div> 
+                I have experience with web developments for around 2 years, and I have built projects with vanilla JavaScript, TypeScript, and React.js. 
             </div>
-            <div> I enjoy creating unique interfaces through code !! </div>
             <br/>
-            <div> I also have experience in software development in python. I have built a GUI interface and a backend pipeline for a desktop application.</div>
-
+            <div>
+                I have also built desktop apps with Kotlin and Python. Familiar with MVVM pattern and Solid principle in architecture design. 
+            </div>
+            <br/>
         </Card>
     </FlexContainer>
 
     <FlexContainer>
         <Card>
-            <Title style={{width:"70%", marginLeft:"15%"}}>What  an I Learning ? </Title>
-            <div> During my summer internship at Sonos, I am involved in Android development and multi-platform development, using 
-                  Compose Multi-platform and Kotlin. 
+            <Title style={{width:"70%", marginLeft:"15%"}}>What am I Learning ? </Title>
+            <div> 
+                I will be taking Compiler and Internet-scale Distributed Systems during 2023 Falls at Tufts, through which I will learn about lower level details about network and programming language. 
             </div>
             <br/>
+            <div>
+                After learning Android development through summer internship at Sonos, I am curious about IOS development. I am now learning about Swift and Swift UI. 
+            </div>
         </Card>
     </FlexContainer>
     </>
