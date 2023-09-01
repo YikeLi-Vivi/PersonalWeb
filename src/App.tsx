@@ -5,7 +5,6 @@ import Project from './pages/Project'
 import CV from './pages/CV'
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
-import './App.css'
 import Footer from './components/Footer'
 import React from 'react'
 
