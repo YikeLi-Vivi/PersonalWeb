@@ -6,7 +6,7 @@
   "homepage": "https://<username>.github.io/<repo>/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
