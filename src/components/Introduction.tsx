@@ -65,11 +65,14 @@ const Introduction = (props : PropType) => {
         <Card>
             <Title style={{width:"70%", marginLeft:"15%"}}>What am I Learning ? </Title>
             <div> 
-                I will be taking Compiler and Internet-scale Distributed Systems during 2023 Falls at Tufts, through which I will learn about lower level details about network and programming language. 
+               I will be taking Compiler and Internet-scale Distributed Systems during 2023 Falls at Tufts, through which I will learn the nitty gritty about World Wide Web 🌐, and unwrap the black box that convert source code to machine code 👾! 
             </div>
             <br/>
             <div>
-                After learning Android development through summer internship at Sonos, I am curious about IOS development. I am now learning about Swift and Swift UI. 
+                After learning Android development through summer internship at Sonos, I am curious about IOS development and now learning about Swift and Swift UI. 
+            </div>
+            <div>
+                I also continue to experiment with Compose Multi-platform, actively seeking for solutions to cross platform development. 
             </div>
         </Card>
     </FlexContainer>
